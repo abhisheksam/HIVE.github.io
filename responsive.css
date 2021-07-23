@@ -1,13 +1,24 @@
 @media (max-width: 992px){
     .contact-me{
-        background-size: 100vw 170vh;
-        background-repeat: no-repeat;
+    background-size: auto;
     }
 
     .contact-list{
         text-align: center;
     }
+    button[type="submit"]{
+        border-radius: 20px;
+        margin-top: 20px;
+        width: 30%;
+        border: none;
+        outline:none;
+        padding: 10px;
+        background-color: #E51060;
+        transition: .3s ease color;
+    }
+
 }
+
 
 @media (max-width: 975px){
     .headsection{
