@@ -1,0 +1,85 @@
+@media (max-width: 992px){
+    .contact-me{
+        background-size: 100vw 170vh;
+        background-repeat: no-repeat;
+    }
+
+    .contact-list{
+        text-align: center;
+    }
+}
+
+@media (max-width: 975px){
+    .headsection{
+        background-image: url("img/resp.png");
+        background-size: 110vh;
+        background-attachment: fixed;
+    }
+    .side-img .img-fluid{
+        display: none;
+    }
+
+    .featurette{
+        margin-top: 2%;
+        
+        
+    }
+
+    .col-md-6 {
+        width: 90%;
+    }
+    .headtext{
+        text-align: center;
+    }
+
+    .headtext .lead{
+        color:black;
+    }
+
+    .about-me .sub-center-content{
+        display: none;
+    }
+
+}
+
+@media (max-width: 700px) and (min-width:600px){
+    .left-content img {
+        width: 90%;
+        height: 20rem;
+    }
+}
+
+@media (max-width: 599px){
+
+    .about-me{
+        text-align: center;
+    }
+
+    .left-content img {
+        width: 90%;
+    }
+
+    .left-content{
+        flex-basis: 90%;
+    }
+
+    .right-content {
+        flex-basis: 100%;
+    } 
+
+    .right-container{
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 430px){
+    .product{
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 370px){
+    .featurette-heading{
+        font-size: 30px;
+    }
+}
