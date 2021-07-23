@@ -32,10 +32,12 @@
 
     .featurette{
         margin-top: 2%;
-        
-        
     }
 
+    .featurette-heading{
+        padding-top: 16%;
+    }
+    
     .col-md-6 {
         width: 90%;
     }
