@@ -12,7 +12,7 @@ $message= $_POST['message'];
 
 // 
 
-$to = "mkm16207@gmail.com";  
+$to = "akisku40@gmail.com";  
 
 $subject = "Mail From THE BAKER'S TALE";
 
